@@ -24,4 +24,4 @@ No Tests are written for this code
 
 <br/>
 UML Reference
-![Lab26 UML](./images/Lab16-UML.png)
+![Lab26 UML](./images/Lab26-UML.png)
