@@ -22,6 +22,6 @@ No Tests are written for this code
 
 ## Documentation
 
-<br/>
-UML Reference
+UML<br/>
+
 ![Lab26 UML](./images/Lab26-UML.png)
