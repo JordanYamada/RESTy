@@ -1,5 +1,9 @@
 # RESTy
 
+## Live Deploy
+
+[Netlify](https://yamada-resty.netlify.app/)
+
 ## Overview
 
 A React frontend for a mock RESTy system that would take user input to make REST requests. An introduction to React functional components and SCSS.
@@ -24,4 +28,5 @@ No Tests are written for this code
 
 UML<br/>
 
+Lab 26 & 27
 ![Lab26 UML](./images/Lab26-UML.png)
