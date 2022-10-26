@@ -12,33 +12,31 @@ import Results from './components/results';
 const App = () => {
 
   let [data, setData] = useState(null);
-  let[requestParams, setRequestParams] = useState({});
+  let [requestParams, setRequestParams] = useState({});
 
   const callApi = (requestParams) => {
     // mock output
     const data = {
       count: 2,
       results: [
-        {name: 'fake thing 1', url: 'http://fakethings.com/1'},
-        {name: 'fake thing 2', url: 'http://fakethings.com/2'},
+        { name: 'fake thing 1', url: 'http://fakethings.com/1' },
+        { name: 'fake thing 2', url: 'http://fakethings.com/2' },
       ],
     };
     setData(data);
     setRequestParams(requestParams);
   }
 
-  render() {
-    return (
-      <React.Fragment>
-        <Header />
-        <div>Request Method: {requestParams.method}</div>
-        <div>URL: {requestParams.url}</div>
-        <Form handleApiCall={callApi} />
-        <Results data={data} />
-        <Footer />
-      </React.Fragment>
-    );
-  }
+  return (
+    <React.Fragment>
+      <Header />
+      <div>Request Method: {requestParams.method}</div>
+      <div>URL: {requestParams.url}</div>
+      <Form handleApiCall={callApi} />
+      <Results data={data} />
+      <Footer />
+    </React.Fragment>
+  );
 }
 
 export default App;
