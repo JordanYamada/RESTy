@@ -1,0 +1,11 @@
+$backgroundColor: rgb(172, 96, 21);
+
+section {
+  background: $backgroundColor;
+  border-bottom: 1px solid #eee;
+  color: #eee;
+  font-size: larger;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}

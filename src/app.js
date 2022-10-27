@@ -14,17 +14,16 @@ const App = () => {
   let [data, setData] = useState(null);
   let [requestParams, setRequestParams] = useState({});
 
+  const fetchData = async (requestParams) => {
+    let res = await fetch(requestParams.url);
+    let json = await res.json();
+    setData(json);
+  }
+
   const callApi = (requestParams) => {
-    // mock output
-    const data = {
-      count: 2,
-      results: [
-        { name: 'fake thing 1', url: 'http://fakethings.com/1' },
-        { name: 'fake thing 2', url: 'http://fakethings.com/2' },
-      ],
-    };
-    setData(data);
+    
     setRequestParams(requestParams);
+    fetchData(requestParams);
   }
 
   return (
