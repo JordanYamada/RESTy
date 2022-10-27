@@ -22,7 +22,8 @@ Be sure to install all dependencies.<br/>
 
 ## Testing
 
-No Tests are written for this code
+Run [nmp test] to run the tests.
+- Tests that User should be able to send a request.
 
 ## Documentation
 
