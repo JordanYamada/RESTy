@@ -29,5 +29,4 @@ Run [nmp test] to run the tests.
 
 UML<br/>
 
-Lab 26 & 27
 ![Lab26 UML](./images/Lab26-UML.png)
